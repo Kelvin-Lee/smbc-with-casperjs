@@ -13,5 +13,5 @@ Some notes I found useful for the prerequisite installations. (Note: I used `npm
 #### Problems with Windows Installations?
 Symptom | Fix/Heplful Link
 --------|-----------------
-Running the `sample.js` script as provided on the casperjs.org site produces correct output, but (1) returns a new prompt immediately without output, and then (2) after returning output, doesn't exit. | [Reasoning](http://stackoverflow.com/questions/29392373/casperjs-script-never-exits) and [related helpful link](http://stackoverflow.com/questions/14894311/installing-casperjs-on-windows-how-to-do-it-correctly)
+Running the `sample.js` script as provided on the casperjs.org site (1) returns a new prompt immediately without output, and then (2) after returning (correct) output, doesn't exit. | [Reasoning](http://stackoverflow.com/questions/29392373/casperjs-script-never-exits) and [related helpful link](http://stackoverflow.com/questions/14894311/installing-casperjs-on-windows-how-to-do-it-correctly)
 
