@@ -1,12 +1,12 @@
 var casper = require('casper').create();
 casper.start('http://smbc-comics.com/');
 
-casper.then(recurse);
+casper.then(getTitle);
 
-function recurse(){
+function getTitle(){
   this.echo(this.getElementsAttribute('#cc-comic', 'title'));
   this.click('#navbottom .nav a.prev[rel="prev"]');
-  return;
+  this.then(getTitle);
 };
 
 casper.run();
