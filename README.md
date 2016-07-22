@@ -19,4 +19,4 @@ Running the `sample.js` script as provided on the casperjs.org site (1) returns 
 - Useful [SO Q/A](http://stackoverflow.com/questions/11604611/what-does-then-really-mean-in-casperjs) regarding CasperJS.
 - [SO Q/A](http://stackoverflow.com/questions/23384963/casperjs-loop-or-iterate-through-multiple-web-pages) that inspired the recursive strategy.
 - Keep in mind that the `fs` module of the script is PhantomJS's own version; apparently, [you can't require node packages in the casperjs environment](http://stackoverflow.com/questions/12826596/write-results-into-a-file-using-casperjs)?
-- 2016-07-22: Script takes about 1 hour to finish. Process about 4k comics. Not sure if this is slow for a web scraper.
+- 2016-07-22: Script takes about **1 hour to finish**. Processes about **4k comics**. Not sure if this is slow for a web scraper.
